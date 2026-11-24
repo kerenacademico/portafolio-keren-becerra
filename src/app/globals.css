@@ -1835,3 +1835,49 @@ footer {
     display: none;
   }
 }
+
+/* =========================================
+   Blindaje visual exclusivo para celular
+   No altera estilos en pantallas >= 768px
+   ========================================= */
+@media (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main,
+  section,
+  header,
+  footer,
+  article,
+  aside,
+  nav {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  img,
+  picture,
+  svg,
+  canvas,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+    max-width: 100%;
+  }
+
+  button,
+  a {
+    max-width: 100%;
+  }
+}
