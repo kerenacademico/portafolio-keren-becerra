@@ -52,7 +52,7 @@ export const PROJECTS = [
     ],
     tags: ["Python", "Django", "HTML", "CSS", "PostgreSQL"],
     liveUrl: "https://cuid-arte-gamma.vercel.app/",
-    repoUrl: "",
+    repoUrl: "https://github.com/Santygf2/CuidArte.git",
     featured: true,
   },
   {
