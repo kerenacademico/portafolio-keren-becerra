@@ -35,7 +35,7 @@ export const STACK = STACK_GROUPS.flatMap((group) =>
 export const PROJECTS = [
   {
     id: "cuidarte",
-    index: "01 / 02 · PROYECTO PRINCIPAL · EN PRODUCCIÓN",
+    index: "01 / 03 · PROYECTO PRINCIPAL · EN PRODUCCIÓN",
     title: "CuidArte",
     shortDesc:
       "Plataforma integral para conectar familias con cuidadores de adultos mayores. Cuenta con registro e ingreso por rol (cuidador o usuario), agenda inteligente, chat multimedia en tiempo real, tienda de insumos médicos, talleres virtuales y guías en PDF.",
@@ -52,12 +52,33 @@ export const PROJECTS = [
     ],
     tags: ["Python", "Django", "HTML", "CSS", "PostgreSQL"],
     liveUrl: "https://cuid-arte-gamma.vercel.app/",
-    repoUrl: "https://github.com/Santygf2/CuidArte.git",
+    repoUrl: "",
+    featured: true,
+  },
+  {
+    id: "kronoskool",
+    index: "02 / 03 · PROYECTO WEB · EN PRODUCCIÓN",
+    title: "Kronoskool",
+    shortDesc:
+      "Sistema web de gestión y control escolar con vista tipo kiosko para registro ágil, consulta operativa y seguimiento en entornos educativos.",
+    highlights: [
+      "Interfaz tipo kiosko optimizada para registro rápido y uso intuitivo en puntos de acceso escolar.",
+      "Gestión centralizada de registros y consulta ágil en tiempo real.",
+      "Diseño responsivo preparado para pantallas táctiles, escritorio y dispositivos móviles.",
+    ],
+    architecture: [
+      "Aplicación web moderna desarrollada con Next.js y JavaScript/React.",
+      "Arquitectura modular conectada a servicios de datos y control de estado.",
+      "Despliegue continuo en Vercel integrado con control de versiones en GitHub.",
+    ],
+    tags: ["Next.js", "React", "JavaScript", "CSS", "Vercel"],
+    liveUrl: "https://kronoskool.vercel.app/kiosk",
+    repoUrl: "https://github.com/kerenacademico/kronoskool",
     featured: true,
   },
   {
     id: "next-collab",
-    index: "02 / 02 · COLABORACIÓN",
+    index: "03 / 03 · COLABORACIÓN",
     title: "¿El siguiente es el tuyo?",
     shortDesc:
       "Busco aportar en equipos de desarrollo como practicante o desarrolladora junior, construyendo productos web sólidos, escalables y bien diseñados.",
